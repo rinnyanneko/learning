@@ -12,7 +12,7 @@ int main()
         {
             if (i % 7 != 0)
             {
-                cout<<n<<" ";
+                cout<<i<<" ";
             }
         }
         cout<<"\n";
