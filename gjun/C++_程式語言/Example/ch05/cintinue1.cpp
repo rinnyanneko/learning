@@ -12,10 +12,11 @@ int main()
         if(f==4) //如果樓層為4就跳過不顯示 
         {
             continue; 
+            //break;
         } 
         cout << f << " "; //顯示樓層 
     }
-    cout << "\n";
+    cout << "END\n";
     system("pause");
     return 0;
 }
