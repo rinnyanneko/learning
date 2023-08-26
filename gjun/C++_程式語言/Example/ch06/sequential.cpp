@@ -22,7 +22,7 @@ int main()
      if (Isfound==true)
          cout  << "中獎者的姓名為：" << name[i];
      else
-         cout << "無此中獎號碼！";
+         cout << "Error: Not In Database";
      cout << "（共比對 " << i+1 << " 次）\n\n";
    }
    return 0;
