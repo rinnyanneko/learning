@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// 定義實作函式
+// 實作自定函式
 float Temperature(int value)   
 {
 	return 1.8 * value +32 ;
