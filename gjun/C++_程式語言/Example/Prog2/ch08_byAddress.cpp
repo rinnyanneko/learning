@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void swap(int x, int y);
+void swap(int *x, int *y);
 
 int main(){
     int a = 10, b = 20;
@@ -13,8 +13,8 @@ int main(){
     return 0;
 }
 
-void swap(int x, int y){
-    int temp=y;
-    y = x;
-    x = temp;
+void swap(int *x, int *y){
+    int temp=*y;
+    *y = *x;
+    *x = temp;
 }
