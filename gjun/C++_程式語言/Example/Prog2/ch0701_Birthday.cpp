@@ -35,6 +35,8 @@ int main(){
 }
 
 int getAge(int year){
-    int age = 2023 - year;
+    int seconds = time(0);
+    int nowYear = seconds/(3600*24*365)+1970;
+    int age = nowYear - year;
     return age;   
 }
