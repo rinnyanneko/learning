@@ -8,6 +8,7 @@ int main()
 	cout << "變數 n 的值=" << n << endl ;
 	cout << "變數 m 的位址=" << &m <<endl;
 	cout << "變數 n 的位址=" << &n <<endl;
+	printf("Address of m is %x\n", &m);
 	cout << "變數 m 的記憶體大小=" << sizeof(m) << "Bytes" << endl;
 	cout << "變數 n 的記憶體大小=" << sizeof(n) << "Bytes" << endl;
 	system("pause");
