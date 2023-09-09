@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-static int total=0; // 办繰篈跑计 total
+int total=0; // 办跑计 total
 void GetData(string name) 
 {
-	static int n=0; //  n 跋办繰篈跑计 
+	auto int n=0; //  n 跋办繰篈跑计 
 	n++;
 	cout << "材 " << n << " 匡琌:" << name << endl;
 	total++;
