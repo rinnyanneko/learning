@@ -10,6 +10,11 @@ int main()
     cout << "p=" << p << endl;     //  p=0x22ff44 (p=&n=變數n的位址)
     cout << "*p=" << *p << endl;   // *p=10 (*p=*&n=n=10)
     cout << "*&n=" << *&n << endl; // *&n=10 (*p=*&n=n=10)
+
+    *p += 20;
+    cout << "n=" << n << endl;
+    n +=30;
+    cout << "*p=" << *p << endl;
 	system("pause");
 	return 0;
 }
