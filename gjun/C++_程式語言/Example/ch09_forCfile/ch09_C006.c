@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(int argc,char *argv[])
+int main(int argc,char *argv[])
 {
 	FILE *fp1,*fp2;
 	int math,english;
@@ -15,17 +15,17 @@ main(int argc,char *argv[])
 	//格式化讀取檔案內容
 	while(fscanf(fp1,"%d %d",&math,&english) !=EOF)
 	{
-		printf("%d   %d\n",math,english); //顯示讀入的資料 
+		printf("%d   %d\n",math,english); //顯示讀入的資料
 		sum_engl+= english; //計算加總
 		sum_math+= math;
 		count++;
 	}
 	math_ave = (float) sum_math / count; //計算平均
 	engl_ave = (float) sum_engl / count;
-	//輸出顯示 
+	//輸出顯示
     printf("The average for english is %6.2f \n",engl_ave);
 	printf("The average for math    is %6.2f \n",math_ave);
-	//格式化寫入檔案 
+	//格式化寫入檔案
     fprintf(fp2,"The average for english is %6.2f \n",engl_ave);
 	fprintf(fp2,"The average for math    is %6.2f \n",math_ave);
 	fclose(fp1);

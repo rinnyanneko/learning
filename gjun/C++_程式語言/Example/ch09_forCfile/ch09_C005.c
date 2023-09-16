@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+int main()
 {
 	FILE *fp;
 	int math,english;
@@ -11,15 +11,15 @@ main()
 
 	fp = fopen("SCORE.txt","r");
 	printf("math english\n");
-	//格式化讀取檔案內容 
+	//格式化讀取檔案內容
 	while(fscanf(fp,"%d %d",&math,&english) !=EOF)
 	{
-		printf("%d   %d\n",math,english); //顯示讀入的資料 
-		sum_engl+= english; //計算加總 
+		printf("%d   %d\n",math,english); //顯示讀入的資料
+		sum_engl+= english; //計算加總
 		sum_math+= math;
 		count++;
 	}
-	math_ave = (float) sum_math / count;  //計算平均 
+	math_ave = (float) sum_math / count;  //計算平均
 	engl_ave = (float) sum_engl / count;
 	//顯示資料
 	printf("The average for english is %6.2f \n",engl_ave);

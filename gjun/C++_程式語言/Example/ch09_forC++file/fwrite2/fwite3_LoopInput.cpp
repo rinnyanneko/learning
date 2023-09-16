@@ -1,13 +1,13 @@
 #include<iostream>
 #include<fstream>
-#include<string.h>
+#include<string>
 using namespace std;
 int main()
 {
-	fstream file;	// 建立檔案輸出物件	
+	fstream file;	// 建立檔案輸出物件
 	string str;
 	//建立sample03.txt檔案，執行寫入動作並將資料附加在檔案結尾
-	file.open("sample02.txt", ios::out | ios::app); 
+	file.open("sample02.txt", ios::out | ios::app);
 	//判斷檔案是否能開啟，開啟成功才寫入資料
 	if(file.fail())
        cout << "檔案無法開啟!\n";
@@ -15,14 +15,14 @@ int main()
 	{
         while(true)
         {
-        	cout << "請輸入資料："; 
-        	getline(cin,str); //輸入字串 
-        	
+        	cout << "請輸入資料：";
+        	getline(cin,str); //輸入字串
+
         	if(str == "exit")
         	{
         		break;
 			}
-			cout << str << endl; //在螢幕顯示 
+			cout << str << endl; //在螢幕顯示
 			printf("字串長度:%d\n",str.length());
         	file.write(str.c_str(),str.length()); //將 str 寫入檔案
         	file.write("\n",1); //寫出一個換行碼
