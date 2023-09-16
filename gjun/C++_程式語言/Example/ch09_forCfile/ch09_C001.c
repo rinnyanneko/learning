@@ -1,5 +1,6 @@
 #include <stdio.h> //for file io
 #include <ctype.h> //for getche()
+#include <stdlib.h>
 int main()
 {
 	FILE *fp; //宣告檔案指標
@@ -17,5 +18,5 @@ int main()
 		printf("%c",ch);
 	}
  	fclose(fp);
-	getche(); //讀取一個字元後，須按Enter(作暫停用)
+	getchar(); //讀取一個字元後，須按Enter(作暫停用)
 }
