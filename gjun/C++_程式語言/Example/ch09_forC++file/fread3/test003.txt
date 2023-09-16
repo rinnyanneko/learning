@@ -1,0 +1,6 @@
+《程式語言教學誌》的範例程式
+http://pydoing.blogspot.com/
+檔名：cstrlen.c
+功能：示範 string.h 中函數 strlen() 的使用
+作者：張凱慶
+時間：西元2010年6月
