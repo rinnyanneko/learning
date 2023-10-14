@@ -1,5 +1,5 @@
-// Àx¦sÀÉ¦W¡GJ201_Define.java
-// ÀÉ®×¥\¯à¡G¸ê®Æ«¬§O»P«Å§iÅÜ¼Æ
+// ï¿½xï¿½sï¿½É¦Wï¿½GJ201_Define.java
+// ï¿½É®×¥\ï¿½ï¿½Gï¿½ï¿½?ï¿½ï¿½ï¿½Oï¿½Pï¿½Å§iï¿½Ü¼ï¿½
 
 public class J201_Define
 {
@@ -7,13 +7,13 @@ public class J201_Define
   {
     boolean bNumber = true;
     byte byteNumber = -128;
-    short shortNumber = 0xff;  //16¶i¦ì¡A¸ê®Æªí¥Ü
+    short shortNumber = 0xff;  //16ï¿½iï¿½ï¿½Aï¿½ï¿½?ï¿½ï¿½ï¿??
     int intNumber = 0xffee;
-    float fNumber = 12.5f;     //Java ¹w³]¯BÂI¼Æ¬° double dada type
+    float fNumber = 12.5f;     //Java ï¿½wï¿½]ï¿½Bï¿½Iï¿½Æ¬ï¿½ double dada type
     double dNumber = 12.5;
-    char zero = '0';	 //¨Ï¥Î³æ¤Þ¸¹ ¥¦¬O¦r¤¸0¡A¤£¬O¼Æ­È0
-    char chrA = 65;	 // A¦r¤¸ªºASCII Code¬°65
-    char uniA = '\u0041';// AªºUnicode¬°0041
+    char zero = '0';	 //ï¿½Ï¥Î³ï¿½Þ¸ï¿?? ï¿½ï¿½ï¿½Oï¿½rï¿½ï¿½0ï¿½Aï¿½ï¿½ï¿½Oï¿½Æ­ï¿½0
+    char chrA = 65;	 // Aï¿½rï¿½ï¿½ï¿½ï¿½ASCII Codeï¿½ï¿½65
+    char uniA = '\u0041';// Aï¿½ï¿½Unicodeï¿½ï¿½0041
     String name = "Smile";
 
     System.out.println("(byte) = " + byteNumber);
@@ -21,10 +21,12 @@ public class J201_Define
     System.out.println("(int) 0xffee = " + intNumber);
     System.out.println("(float) = " + fNumber);
     System.out.println("(double) = " + dNumber);
-    
+
     System.out.println("Zero = " + zero);
     System.out.println("chrA = " + chrA);
     System.out.println("uniA = "+uniA);
     System.out.println("Your name is " + name);
+    System.out.println("I am Chin-Hsiang Hsu");
+    System.out.println("Hello World!");
   }
 }
