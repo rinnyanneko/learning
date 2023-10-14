@@ -10,5 +10,7 @@ public class TestVar02 {
         System.out.println(age < 20);
         System.out.println(age == 20);
         System.out.println(age != 20);
+        boolean isOpenDoor = true;
+        System.out.println(isOpenDoor);
     }
 }
