@@ -1,15 +1,15 @@
-//Àx¦sÀÉ¦W¡GJ207_Logic.java
+//å„²å­˜æª”åï¼šJ207_Logic.java
 
 public class J207_Logic {
 
     public static void main(String[] args) {
-        int a=1, b=4, c=4;	//«Å§i¨Ãªì©la, b, c­È
-        boolean x = a<b && a<c;	//«Å§i¨Ã«ü©w x ­È (ÅŞ¿è¹Bºâ¤lAND&& OR||)
+        int a=1, b=4, c=4;	//å®£å‘Šä¸¦åˆå§‹a, b, cå€¼
+        boolean x = a<b && a<c;	//å®£å‘Šä¸¦æŒ‡å®š x å€¼ (é‚è¼¯é‹ç®—å­AND&& OR||)
         System.out.print("a<b = ");
-        System.out.println(a < b); //¤ñ¸û¹Bºâ
+        System.out.println(a < b); //æ¯”è¼ƒé‹ç®—
         System.out.print("a<c = ");
         System.out.println(a < c);
 
-        System.out.println("a<b && a<c = " + x); //¿é¥X x boolean­È
+        System.out.println("a<b && a<c = " + x); //è¼¸å‡º x booleanå€¼
     }
 }
