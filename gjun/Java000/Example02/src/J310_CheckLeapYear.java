@@ -1,33 +1,33 @@
-// Àx¦sÀÉ¦W¡GJ310_CheckLeapYear.java
+// å„²å­˜æª”åï¼šJ310_CheckLeapYear.java
 
 import java.io.*;
 
 public class J310_CheckLeapYear {
 
     public static void main(String[] args) throws IOException {
-        //«Ø¥ß¶Ç²ÎIOª«¥ó(¿é¥X¤Jª«¥ó)
+        //å»ºç«‹å‚³çµ±IOç‰©ä»¶(è¼¸å‡ºå…¥ç‰©ä»¶)
         BufferedReader line = new BufferedReader(new InputStreamReader(System.in));
         int year;
-        do {    //­Y¿é¤J¤£¬O0«h°j°é¦¨¥ß
-            System.out.print("½Ğ¿é¤J¦è¤¸¦~¥÷¡A­Y¿é¤J 0 «hµ²§ô¡G");
-            year = Integer.parseInt(line.readLine()); //¿é¤J¨Ã§â¦r¦êÂà«¬¬°int
-            //¦h¦V¿ï¾Üµ²ºc
-            if (year % 4 != 0) // ­Yyear¤£¬O4ªº­¿¼Æ
+        do {    //è‹¥è¼¸å…¥ä¸æ˜¯0å‰‡è¿´åœˆæˆç«‹
+            System.out.print("è«‹è¼¸å…¥è¥¿å…ƒå¹´ä»½ï¼Œè‹¥è¼¸å…¥ 0 å‰‡çµæŸï¼š");
+            year = Integer.parseInt(line.readLine()); //è¼¸å…¥ä¸¦æŠŠå­—ä¸²è½‰å‹ç‚ºint
+            //å¤šå‘é¸æ“‡çµæ§‹
+            if (year % 4 != 0) // è‹¥yearä¸æ˜¯4çš„å€æ•¸
             {
-                System.out.println(year + "¦~¤£¬O¶|¦~");
+                System.out.println(year + "å¹´ä¸æ˜¯é–å¹´");
             } 
-            else if (year % 100 == 0) // ¬O4ªº­¿¼Æ¤]¬O100ªº­¿¼Æ
+            else if (year % 100 == 0) // æ˜¯4çš„å€æ•¸ä¹Ÿæ˜¯100çš„å€æ•¸
             {
-                if(year % 400 == 0){ // ¤]¬O400ªº­¿¼Æ
-                    System.out.println(year + "¦~¬O¶|¦~");
-                }else{ // ¤£¬O400ªº­¿¼Æ
-                    System.out.println(year + "¦~¤£¬O¶|¦~");
+                if(year % 400 == 0){ // ä¹Ÿæ˜¯400çš„å€æ•¸
+                    System.out.println(year + "å¹´æ˜¯é–å¹´");
+                }else{ // ä¸æ˜¯400çš„å€æ•¸
+                    System.out.println(year + "å¹´ä¸æ˜¯é–å¹´");
                 }
             } 
-            else // ¬O4ªº­¿¼Æ¤£¬O100ªº­¿¼Æ
+            else // æ˜¯4çš„å€æ•¸ä¸æ˜¯100çš„å€æ•¸
             {
-                System.out.println(year + "¦~¬O¶|¦~");
+                System.out.println(year + "å¹´æ˜¯é–å¹´");
             }
-        } while (year != 0); //­Y¿é¤J¤£¬O0«h°j°é¦¨¥ß
+        } while (year != 0); //è‹¥è¼¸å…¥ä¸æ˜¯0å‰‡è¿´åœˆæˆç«‹
     }
 }

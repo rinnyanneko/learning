@@ -1,18 +1,18 @@
-// Àx¦sÀÉ¦W¡GJ314_Multiple.java
+// å„²å­˜æª”åï¼šJ314_Multiple.java
 public class J314_Multiple {
 
     public static void main(String[] args) {
         int count;
-        System.out.print("1 ¦Ü 30 ¶¡ 3 ªº­¿¼Æ¬°¡G");
-        for (count=1; count<=30; count++) // ©w¸q°j°é
+        System.out.print("1 è‡³ 30 é–“ 3 çš„å€æ•¸ç‚ºï¼š");
+        for (count=1; count<=30; count++) // å®šç¾©è¿´åœˆ
         {
-            if (count%3 != 0) // ­Y¤£¬O3ªº­¿¼Æ
+            if (count%3 != 0) // è‹¥ä¸æ˜¯3çš„å€æ•¸
             {
-                //break;	     // ¤¤Â_°j°é§@¥Î
-                continue;  // ªğ¦^°j°é°_ÂI¡AÄ~Äò¤U¤@°j°é(¤¤³~§éªğ§@¥Î)
+                //break;	     // ä¸­æ–·è¿´åœˆä½œç”¨
+                continue;  // è¿”å›è¿´åœˆèµ·é»ï¼Œç¹¼çºŒä¸‹ä¸€è¿´åœˆ(ä¸­é€”æŠ˜è¿”ä½œç”¨)
             }						
-            System.out.print(count + "  "); //Åã¥Ü3ªº­¿¼Æ¨ÃªÅ®æ
+            System.out.print(count + "  "); //é¡¯ç¤º3çš„å€æ•¸ä¸¦ç©ºæ ¼
         }
-        System.out.println(); //´«¦æ
+        System.out.println(); //æ›è¡Œ
     }
 }

@@ -1,4 +1,4 @@
-/* Àx¦sÀÉ¦W¡GJ313_Times.java */
+/* å„²å­˜æª”åï¼šJ313_Times.java */
 public class J313_Times {
     public static void main(String[] args) {
         System.out.print("   ");
@@ -7,7 +7,7 @@ public class J313_Times {
         }
         System.out.print("\n -------------------------------");
         System.out.print("----------------------------------");
-        //±_ª¬for°j°é
+        //å·¢ç‹€forè¿´åœˆ
         for (int k=1; k<=9; k++) {
             System.out.print("\n" + k + "| ");
             for (int j=1; j<=9; j++) {

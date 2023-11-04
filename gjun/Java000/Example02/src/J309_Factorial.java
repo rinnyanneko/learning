@@ -1,19 +1,19 @@
-// Àx¦sÀÉ¦W¡GJ309_Factorial.java
-
+// å„²å­˜æª”åï¼šJ309_Factorial.java
+import java.util.Scanner;
 public class J309_Factorial {
 
     public static void main(String[] args) {
-        java.util.Scanner input = new java.util.Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int num = 0;
         int sum = 0;
-        System.out.println("¥H¤U½Ğ¿é¤J´úÅç¤À¼Æ(¿é¤J0µ²§ô)");
-        //«á´ú¸Õ°j°é­«ÂĞµ²ºc
+        System.out.println("ä»¥ä¸‹è«‹è¼¸å…¥æ¸¬é©—åˆ†æ•¸(è¼¸å…¥0çµæŸ)");
+        //å¾Œæ¸¬è©¦è¿´åœˆé‡è¦†çµæ§‹
         do {
 
             num = input.nextInt();
             sum += num;
 
         } while (num != 0);
-        System.out.println("´úÅç¤À¼ÆÁ`­p = " + sum + " ¤À");
+        System.out.println("æ¸¬é©—åˆ†æ•¸ç¸½è¨ˆ = " + sum + " åˆ†");
     }
 }

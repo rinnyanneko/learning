@@ -1,13 +1,13 @@
-// Àx¦sÀÉ¦W¡GJ312_Table.java
+// å„²å­˜æª”åï¼šJ312_Table.java
 public class J312_Table {
     public static void main(String args[]) {
-        //±_ª¬for°j°é
+        //å·¢ç‹€forè¿´åœˆ
         for (int i=5; i>=1; i--) {
             for (int j=1; j<=i; j++) {
-                System.out.print("¡¯");
+                System.out.print("ï¼Š");
             }
             System.out.println();
         }
-        System.out.println("\n°j°é°õ¦æµ²§ô¡C");
+        System.out.println("\nè¿´åœˆåŸ·è¡ŒçµæŸã€‚");
     }
 }

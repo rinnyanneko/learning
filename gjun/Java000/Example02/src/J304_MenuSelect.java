@@ -1,26 +1,26 @@
-// Àx¦sÀÉ¦W¡GJ304_MenuSelect.java
+// å„²å­˜æª”åï¼šJ304_MenuSelect.java
 
 public class J304_MenuSelect {
     public static void main(String[] args) throws java.io.IOException {
         char inChar;
-        System.out.print("½Ğ¿é¤J²£«~¥N¸¹(A.¬Ã¯]¥¤¯ù B.³Á­»ºñ¯ù C.«C¯ó²ş):");
-        inChar = (char) System.in.read(); //inChar=¿é¤J¤@­Ó¦r¤¸
+        System.out.print("è«‹è¼¸å…¥ç”¢å“ä»£è™Ÿ(A.çç å¥¶èŒ¶ B.éº¥é¦™ç¶ èŒ¶ C.é’è‰è¼):");
+        inChar = (char) System.in.read(); //inChar=è¼¸å…¥ä¸€å€‹å­—å…ƒ
         switch (inChar) {
-            case 'A':	//­YinChar¬°A¦r¤¸
-            case 'a':	//©ÎinChar¬°a¦r¤¸
-                System.out.println("§A¿ï¤F¬Ã¯]¥¤¯ù");
-                break;  //¸õÂ÷switchµ²ºc°Ï¶ô
+            case 'A':	//è‹¥inCharç‚ºAå­—å…ƒ
+            case 'a':	//æˆ–inCharç‚ºaå­—å…ƒ
+                System.out.println("ä½ é¸äº†çç å¥¶èŒ¶");
+                break;  //è·³é›¢switchçµæ§‹å€å¡Š
             case 'B':	
             case 'b':	
-                System.out.println("§A¿ï¤F³Á­»ºñ¯ù");
+                System.out.println("ä½ é¸äº†éº¥é¦™ç¶ èŒ¶");
                 break;
             case 'C':	
             case 'c':	
-                System.out.println("§A¿ï¤F«C¯ó¯ù");
+                System.out.println("ä½ é¸äº†é’è‰èŒ¶");
                 break;
-            default:	//inChar¬°¨ä¥L¦r¤¸
-                System.out.println("½Ğ¿é¤Ja,b,c ¿ï¾Ü²£«~");
+            default:	//inCharç‚ºå…¶ä»–å­—å…ƒ
+                System.out.println("è«‹è¼¸å…¥a,b,c é¸æ“‡ç”¢å“");
         }
-        System.out.println("\n*** µ²§ôswitch¦h¦Vµ²ºc ***");
+        System.out.println("\n*** çµæŸswitchå¤šå‘çµæ§‹ ***");
     }
 }

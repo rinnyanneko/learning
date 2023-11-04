@@ -1,18 +1,18 @@
-// Àx¦sÀÉ¦W¡GJ316_Lable.java
+// å„²å­˜æª”åï¼šJ316_Lable.java
 
 public class J315_Label {
     public static void main(String args[]) {
-        Lab1: //¦Û­q¼ĞÅÒ¦WºÙ¡A¶È¥i¼g¦b°j°é±Ô­zªº¤W¤@¦æ
+        Lab1: //è‡ªè¨‚æ¨™ç±¤åç¨±ï¼Œåƒ…å¯å¯«åœ¨è¿´åœˆæ•˜è¿°çš„ä¸Šä¸€è¡Œ
         for (int i = 1; i <= 10; i++) {
             for (int j = 1; j <= i; j++) {
-//                 if(i>5){
-//                    System.out.println("@");
-//                    break Lab1;  //±j¨î¸õÂ÷¨ì¦Û­q¼ĞÅÒ¦WºÙLab1,¤]¸õÂ÷¤F¥~°j°é
-//                 }
+                 if(i>5){
+                    System.out.println("@");
+                    break Lab1;  //å¼·åˆ¶è·³é›¢åˆ°è‡ªè¨‚æ¨™ç±¤åç¨±Lab1,ä¹Ÿè·³é›¢äº†å¤–è¿´åœˆ
+                 }
                 System.out.print(j);
             }
             System.out.println();
         }
-        System.out.println("±_ª¬°j°é°õ¦æµ²§ô¤F.....");
+        System.out.println("å·¢ç‹€è¿´åœˆåŸ·è¡ŒçµæŸäº†.....");
     }
 }
