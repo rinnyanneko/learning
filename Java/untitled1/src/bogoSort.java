@@ -9,7 +9,7 @@ public class bogoSort {
         while (!isSorted(a)) {
             shuffle(a);
             run++;
-            System.out.println(run);
+            System.out.println(run + " runs");
             System.out.println("Sort time: " + (System.currentTimeMillis() - time1) + " ms");
         }
     }
