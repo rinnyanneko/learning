@@ -4,7 +4,9 @@ public class Customer {
     public String address;
     public int orderNum;
     public int age;
+    public Cart cart = new Cart();
     public void displayCustomer(){
         System.out.println("Customer: " + name);
+        System.out.println("Age: " + age);
     }
 }
