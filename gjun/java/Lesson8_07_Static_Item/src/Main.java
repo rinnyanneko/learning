@@ -4,6 +4,5 @@ public class Main {
         i.setSize(ItemSizes.mMed);
         i.setColor(ColorCode.BLUE);
         i.display();
-        System.out.println(ColorCode.getColor('y'));
     }
 }
