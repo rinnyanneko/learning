@@ -1,0 +1,4 @@
+name: PluginLearn
+version: '${project.version}'
+main: com.rin.pluginlearn.PluginLearn
+api-version: '1.20'

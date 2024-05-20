@@ -1,0 +1,16 @@
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\bin\Debug\net8.0-windows\A20240323_02.exe
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\bin\Debug\net8.0-windows\A20240323_02.deps.json
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\bin\Debug\net8.0-windows\A20240323_02.runtimeconfig.json
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\bin\Debug\net8.0-windows\A20240323_02.dll
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\bin\Debug\net8.0-windows\A20240323_02.pdb
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.Form1.resources
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.csproj.GenerateResource.cache
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.GeneratedMSBuildEditorConfig.editorconfig
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.AssemblyInfoInputs.cache
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.AssemblyInfo.cs
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.csproj.CoreCompileInputs.cache
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.dll
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\refint\A20240323_02.dll
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.pdb
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\A20240323_02.genruntimeconfig.cache
+G:\OnLine線上課用\CSNP\myProject\A20240323_02\A20240323_02\obj\Debug\net8.0-windows\ref\A20240323_02.dll

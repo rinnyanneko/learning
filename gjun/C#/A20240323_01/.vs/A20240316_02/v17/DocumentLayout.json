@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\OnLine\u7DDA\u4E0A\u8AB2\u7528\\CSNP\\myProject\\A20240323_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7063C9ED-1D89-41A7-AF70-B59A3771F619}|A20240316_02\\A20240316_02.csproj|g:\\online\u7DDA\u4E0A\u8AB2\u7528\\csnp\\myproject\\a20240323_01\\a20240316_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7063C9ED-1D89-41A7-AF70-B59A3771F619}|A20240316_02\\A20240316_02.csproj|solutionrelative:a20240316_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7063C9ED-1D89-41A7-AF70-B59A3771F619}|A20240316_02\\A20240316_02.csproj|g:\\online\u7DDA\u4E0A\u8AB2\u7528\\csnp\\myproject\\a20240323_01\\a20240316_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7063C9ED-1D89-41A7-AF70-B59A3771F619}|A20240316_02\\A20240316_02.csproj|solutionrelative:a20240316_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 80,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "G:\\OnLine\u7DDA\u4E0A\u8AB2\u7528\\CSNP\\myProject\\A20240323_01\\A20240316_02\\Form1.cs",
+              "RelativeDocumentMoniker": "A20240316_02\\Form1.cs",
+              "ToolTip": "G:\\OnLine\u7DDA\u4E0A\u8AB2\u7528\\CSNP\\myProject\\A20240323_01\\A20240316_02\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "A20240316_02\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T03:05:06.636Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\OnLine\u7DDA\u4E0A\u8AB2\u7528\\CSNP\\myProject\\A20240323_01\\A20240316_02\\Form1.cs",
+              "RelativeDocumentMoniker": "A20240316_02\\Form1.cs",
+              "ToolTip": "G:\\OnLine\u7DDA\u4E0A\u8AB2\u7528\\CSNP\\myProject\\A20240323_01\\A20240316_02\\Form1.cs",
+              "RelativeToolTip": "A20240316_02\\Form1.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T01:36:44.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
