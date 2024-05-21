@@ -2,3 +2,11 @@ name: PluginLearn
 version: '${project.version}'
 main: com.rin.pluginlearn.PluginLearn
 api-version: '1.20'
+description: 凜喵喵在學插件la~
+author: Rin
+website: https://rinnyanneko.github.io/
+commands:
+    pluginlearn:
+        description: 主指令
+        usage: /pluginlearn
+        aliases: [pl]
