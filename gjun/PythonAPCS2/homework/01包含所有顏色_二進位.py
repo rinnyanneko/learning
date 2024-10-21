@@ -15,14 +15,15 @@
 範例輸出:
     2
 '''
-color = input()
-row = input()
-count = 0
-for i in color:
-    countA = 0
-    num = input()
-    for j in color:
-        if str(j) in num: countA += 1
-    if countA == color:
-        count += 1
-print(count)
+N = int(input())
+M = int(input())
+ans = 0
+c = 0
+for i in range(M):
+    a = input()
+    for j in a:
+        c |= (1 << int(j))
+    if c == 7:
+        ans += 1
+    c = 0
+print(ans)
