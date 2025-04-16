@@ -5,7 +5,7 @@ const int people = 3;
 const int subjects = 5;
 int main(){
 	double scores[people][subjects];
-	double sum, avg = 0;
+	double sum[people], avg[people];
 	for (int i = 0; i < people; i++){
 		for (int j = 0; j < subjects; j++){
 			cin >> scores[i][j];
@@ -13,10 +13,10 @@ int main(){
 	}
 	for (int i = 0; i < people; i++){
 		for (int j = 0; j < subjects; j++){
-			sum += scores[i][j];
+			sum[i] += scores[i][j];
 		}
+		avg[i] = sum[i] / subjects;
+		cout << avg[i] << endl;
 	}
-	avg = sum / (people * subjects);
-	cout << avg;
 	return 0;
 }
