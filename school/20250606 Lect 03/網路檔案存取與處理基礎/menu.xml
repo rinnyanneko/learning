@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<menu>
+  <breakfast hours="7-11">
+    <item price="39元">起司三重奏</item>
+    <item price="39元">石安牧場蛋沙拉三明治</item>
+  </breakfast>
+  <lunch hours="11-3">
+    <item price="33元">哇沙米鮭魚飯糰</item>
+    <item price="42元">新極上飯糰-炙燒明太子</item>
+  </lunch>
+  <dinner hours="3-10">
+    <item price="79元">繽紛鮮蔬烤雞便當</item>
+    <item price="89元">松露烤雞義大利麵</item>
+    <item price="65元">蒜味香腸便當</item>
+  </dinner>
+</menu>
