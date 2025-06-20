@@ -1,0 +1,38 @@
+
+本料夾下所有的範例均為整合 Python Selenium 及 BeautifulSoup 工具
+來實現動態網頁爬蟲，必須在有 .ipynb 範例城市檔案所在的目錄中，
+放置 chrome driver (chromedriver.exe) 檔案。
+
+2024 年後使用 chrome webbrowser 時，請先檢查是否是最新版的瀏覽器
+版本，如果不是請務必先行更新至最新版！
+
+更新後，請至以下網站上下載穩定版(stable)的 chromedriver
+
+https://googlechromelabs.github.io/chrome-for-testing/
+
+舊版(115.X.Y.Z 以前)的 chrome 瀏覽器，請至以下網站上下載適合自己 
+chrome 瀏覽器版本的 chromedriver.exe，版本錯誤則不能執行。
+
+https://chromedriver.chromium.org/ 
+
+1. Windows 10 用 chromedriver_win32.zip
+2. Windows 11 用 chromedriver_win64.zip
+3. MAC 用 chromedriver_mac64.zip
+
+
+
+
+參考：
+
+https://www.learncodewithmike.com/2020/05/python-selenium-scraper.html
+
+https://developer.chrome.com/docs/chromedriver?hl=zh-tw
+
+https://developer.chrome.com/docs/chromedriver/downloads?hl=zh-tw
+
+https://medium.com/marketingdatascience/selenium%E6%95%99%E5%AD%B8-%E4%B8%80-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8webdriver-send-keys-988816ce9bed
+
+https://hackmd.io/@FortesHuang/S1V6jrvet
+
+https://www.youtube.com/watch?v=ximjGyZ93YQ&ab_channel=GrandmaCan-%E6%88%91%E9%98%BF%E5%AC%A4%E9%83%BD%E6%9C%83
+
