@@ -1,8 +1,11 @@
+import processing.net.*;
+
 int size = 25;
 int r = 255;
 int g = 0;
 int b = 0;
 int shape = 1; //1=Circle, 2=Oval, 3=Square, 4=Rectangle
+Client myClient = new Client(this, "127.0.0.1", 5204);
 
 void setup(){
   size(1024, 768);
@@ -11,7 +14,7 @@ void setup(){
 }
 
 void draw(){
-  fill(r, g, b);
+  fill(this.r, this.g, this.b);
   noStroke();
   if (mousePressed &&
     !(mouseY >= 0 && mouseY < 20 && mouseX >= 0 && mouseX < 40) &&
@@ -44,7 +47,7 @@ void mousePressed(){
   }else if (mouseX >= 0 && mouseX < 20 && mouseY >= 20 && mouseY < 540){
     for (int i = 0; i <= 25; i++){
       if (mouseY >= i*20+20 && mouseY < i*20+40){
-        r = 0; g = i*10;b = 0;
+        this.r = 0; this.g = i*10; this.b = 0;
       }
     }
   }
@@ -53,19 +56,19 @@ void mousePressed(){
 void keyPressed(){
   switch(key){
     case 'r':
-      r = 255; g = 0; b = 0; break;
+      this.r = 255; this.g = 0; this.b = 0; break;
     case 'g':
-      r = 0; g = 255; b = 0; break;
+      this.r = 0; this.g = 255; this.b = 0; break;
     case 'b':
-      r = 0; g = 0; b = 255; break;
+      this.r = 0; this.g = 0; this.b = 255; break;
     case '1':
-      shape = 1; break;
+      this.shape = 1; break;
     case '2':
-      shape = 2; break;
+      this.shape = 2; break;
     case '3':
-      shape = 3; break;
+      this.shape = 3; break;
     case '4':
-      shape = 4; break;
+      this.shape = 4; break;
     case ' ':
       background(255);
       break;
