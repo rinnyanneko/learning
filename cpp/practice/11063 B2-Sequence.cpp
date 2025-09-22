@@ -1,6 +1,6 @@
 //https://cpe.mcu.edu.tw/cpe/test_data/2025-05-20
 
-#include <bits/stdc++.h>
+#include <iostream>
 #include <vector>
 
 using namespace std;
